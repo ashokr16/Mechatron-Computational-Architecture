@@ -1,0 +1,241 @@
+MECHATRON COMPUTATIONAL ARCHITECTURE (MCA)
+CUSTOM MULTI-DOMAIN LICENSE
+
+Copyright (c) 2026 Ashok Radhakrishnan, M.E.
+All rights reserved.
+
+
+1. PURPOSE AND SCOPE
+
+The Mechatron Computational Architecture (MCA) is a technology-independent computational architecture and specification.
+
+This License governs the reproduction, use, modification, adaptation, distribution, implementation, and commercial licensing of the MCA Specification.
+
+For purposes of this License:
+
+“MCA Specification” means the Mechatron Computational Architecture and its original specification content, including architectural definitions, Common Representation, mathematical models, formalisms, structural schemas, computational workflows, algorithms, pseudocode, diagrams, and associated documentation contained within the MCA Specification.
+
+“MCA Implementation” means any software, artificial intelligence system, computational model, digital system, simulation, digital twin, firmware, embedded system, hardware controller, robotic system, mechatronic system, machine, automated system, autonomous system, industrial system, or other system that implements or substantially incorporates the MCA architecture.
+
+“Non-Commercial Use” means use undertaken without direct or indirect commercial exploitation, monetary consideration, commercial advantage, or commercial benefit.
+
+“Commercial Use” means use undertaken for commercial exploitation, commercial advantage, monetary consideration, revenue generation, production, sale, licensing, deployment, operation, distribution, or provision of commercial products or services.
+
+
+2. NON-COMMERCIAL LICENSE
+
+Subject to the terms of this License, the copyright holder grants a non-exclusive, worldwide, royalty-free license to reproduce, study, reference, modify, adapt, translate, develop, and distribute the MCA Specification for Non-Commercial Use.
+
+The license granted under this Section includes academic, scientific, educational, research, experimental, evaluation, and personal use.
+
+This Section does not grant Commercial Use rights.
+
+
+3. AI, SOFTWARE AND DIGITAL IMPLEMENTATIONS
+
+Non-Commercial Use of the MCA architecture in software, artificial intelligence systems, computational models, algorithms, applications, cloud systems, data-processing systems, digital platforms, and other digital implementations is authorized under this License.
+
+Commercial Use of an MCA Implementation within software, artificial intelligence, cloud, digital, or computational systems requires a separate commercial license issued under an applicable commercial licensing framework.
+
+
+4. ROBOTICS, MECHATRONICS AND PHYSICAL IMPLEMENTATIONS
+
+Non-Commercial Use of the MCA architecture in robotics, mechatronics, automated machinery, autonomous machines, industrial equipment, robotic actuators, physical controllers, embedded systems, autonomous vehicles, cyber-physical systems, and other physical implementations is authorized under this License.
+
+Commercial manufacture, deployment, operation, sale, licensing, distribution, or other Commercial Use of such implementations requires a separate commercial license.
+
+
+5. DIGITAL TWINS, SIMULATION AND VIRTUAL IMPLEMENTATIONS
+
+Non-Commercial Use of MCA in simulations, virtual machines, virtual robots, digital twins, software-defined systems, computational experiments, and other virtual implementations is authorized under this License.
+
+Commercial Use of such implementations requires a separate commercial license.
+
+
+6. INDUSTRIAL, ENGINEERING AND OTHER DISCIPLINES
+
+The non-commercial rights granted by this License extend to applications of MCA in engineering, manufacturing, automation, control, transportation, autonomous systems, scientific computing, information systems, cyber-physical systems, and other technological or scientific fields.
+
+Commercial Use within any such field requires authorization under an applicable commercial licensing framework.
+
+
+7. COMMERCIAL LICENSING
+
+Commercial Use of the MCA Specification or an MCA Implementation is prohibited unless expressly authorized by the copyright holder through a separate written commercial license or applicable commercial licensing framework.
+
+Commercial licensing terms may establish domain-specific, technology-specific, industry-specific, implementation-specific, or usage-specific rights and conditions.
+
+A commercial license granted for one implementation or domain does not authorize Commercial Use in any other implementation or domain unless expressly stated in that license.
+
+
+8. MODIFICATION AND DERIVATIVE WORKS
+
+Modification, adaptation, translation, extension, restructuring, and creation of derivative versions of the MCA Specification are authorized for Non-Commercial Use subject to this License.
+
+Any distributed modified or derivative version must retain the original copyright notice and attribution requirements specified in this License.
+
+Modification or creation of a derivative version does not transfer ownership of the MCA architecture or the copyright holder’s intellectual property rights.
+
+
+9. INTEGRATION AND INCORPORATION
+
+The MCA Specification may be incorporated into, integrated with, referenced by, or combined with other architectures, systems, software, research, engineering projects, or technologies for Non-Commercial Use.
+
+Commercial products, services, platforms, architectures, systems, or technologies that incorporate or substantially implement MCA require a separate commercial license.
+
+
+10. DISTRIBUTION AND REDISTRIBUTION
+
+Distribution and redistribution of the MCA Specification and authorized modified or derivative versions are permitted for Non-Commercial Use.
+
+Each distributed copy must:
+
+a. retain the original copyright notice;
+
+b. retain the required attribution;
+
+c. identify material modifications; and
+
+d. include a copy of this License or an authorized reference to this License.
+
+Commercial distribution requires a separate commercial license.
+
+
+11. ATTRIBUTION AND COPYRIGHT
+
+The following copyright notice must be retained:
+
+Copyright (c) 2026 Ashok Radhakrishnan, M.E.
+All rights reserved.
+
+The name of the original author and the Mechatron Computational Architecture must be attributed in reproductions, distributions, publications, and derivative versions of the MCA Specification.
+
+Academic and scientific publications that reproduce, modify, implement, or substantially rely upon the MCA Specification must cite the original MCA Specification.
+
+
+12. SEPARATE LICENSING FRAMEWORKS AND TIERS
+
+The copyright holder may establish separate licensing frameworks, commercial licenses, industry-specific agreements, technology-specific licenses, implementation-specific licenses, and licensing tiers.
+
+Separate frameworks may govern:
+
+a. AI and software implementations;
+
+b. cloud and digital computational systems;
+
+c. robotics and physical machine implementations;
+
+d. embedded and hardware-controller implementations;
+
+e. industrial and automation systems;
+
+f. autonomous systems;
+
+g. digital twins and simulation systems; and
+
+h. additional implementation domains.
+
+Authorization under one licensing framework does not constitute authorization under another licensing framework.
+
+
+13. EMBEDDED, FIRMWARE AND HARDWARE IMPLEMENTATIONS
+
+Commercial implementation of MCA within firmware, embedded software, programmable controllers, hardware systems, edge-computing devices, dedicated computational hardware, or integrated hardware-software systems requires a separate commercial license.
+
+Commercial licensing terms may distinguish between software, firmware, hardware, and integrated physical implementations.
+
+
+14. COPYRIGHT, PATENT AND OTHER INTELLECTUAL PROPERTY RIGHTS
+
+This License grants only the copyright rights expressly stated herein.
+
+No provision of this License transfers ownership of the MCA Specification, MCA architecture, or the copyright holder’s intellectual property.
+
+This License does not grant rights under patents, patent applications, trademarks, trade names, trade secrets, or other intellectual property rights.
+
+Patent rights required for an MCA Implementation must be granted through a separate patent license or other applicable written authorization.
+
+Third-party intellectual property remains subject to the rights and licenses applicable to that intellectual property.
+
+
+15. TRADEMARKS, NAMES AND BRANDING
+
+This License does not grant rights to use:
+
+a. “Mechatron Computational Architecture”;
+
+b. “MCA”;
+
+c. the copyright holder’s name;
+
+d. logos;
+
+e. trademarks; or
+
+f. other protected names or identifying marks for purposes that imply endorsement, certification, sponsorship, official approval, or commercial authorization.
+Commercial use of such names, marks, or branding requires separate written authorization from the copyright holder. 
+
+
+16. THIRD-PARTY TECHNOLOGIES AND MATERIALS
+
+MCA Implementations may incorporate third-party software, hardware, algorithms, standards, datasets, models, libraries, technologies, or other materials.
+
+This License grants no rights to third-party intellectual property or other third-party materials.
+
+The implementer is responsible for obtaining and maintaining all licenses, permissions, approvals, certifications, and authorizations required for third-party materials.
+
+
+17. SAFETY, ENGINEERING AND REGULATORY RESPONSIBILITY
+
+The implementer is solely responsible for the design, development, testing, verification, validation, safety, security, performance, reliability, certification, regulatory compliance, and operational suitability of each MCA Implementation.
+
+Implementation of MCA in physical machines, robotics, autonomous systems, industrial systems, transportation systems, safety-critical systems, regulated systems, or other regulated applications does not constitute engineering certification, safety certification, regulatory approval, or operational authorization.
+
+The implementer must comply with all applicable laws, regulations, technical requirements, safety requirements, standards, and certification requirements.
+
+
+18. NO ENDORSEMENT OR CERTIFICATION
+
+Use, implementation, modification, publication, distribution, or reference to MCA does not constitute endorsement, approval, certification, validation, sponsorship, or authorization by the copyright holder.
+
+No person or entity may represent an MCA Implementation as approved, certified, endorsed, sponsored, or authorized by the copyright holder without express written authorization.
+
+
+19. RESERVATION OF RIGHTS
+
+All rights not expressly granted under this License are reserved by the copyright holder.
+
+No license, permission, authorization, or other right is granted by implication, estoppel, or otherwise except as expressly stated in this License.
+
+
+20. NO WARRANTY
+
+THE MCA SPECIFICATION IS PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, RELIABILITY, SAFETY, OR SUITABILITY FOR ANY PARTICULAR APPLICATION.
+
+
+21. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY CLAIM, LOSS, DAMAGE, COST, EXPENSE, OR OTHER LIABILITY ARISING FROM OR RELATING TO THE MCA SPECIFICATION, ANY MCA IMPLEMENTATION, OR THE USE, MODIFICATION, DISTRIBUTION, OR OTHER DEALINGS WITH MCA.
+
+
+22. TERMINATION
+
+The rights granted under this License terminate automatically upon material breach of its terms.
+
+Termination does not affect rights lawfully exercised before termination.
+
+Rights may be reinstated only by express written authorization from the copyright holder.
+
+
+23. SEVERABILITY
+
+If any provision of this License is determined to be invalid or unenforceable, that provision shall be limited or removed to the minimum extent necessary, and the remaining provisions shall remain in effect.
+
+
+24. GOVERNING LICENSING FRAMEWORK
+
+This License governs the rights expressly granted for the MCA Specification.
+
+A separate written commercial license may establish additional, modified, or superseding terms for a specified MCA Implementation, technology, industry, jurisdiction, or commercial application.
+
+Where a separate written commercial license expressly conflicts with this License, the terms of the separate commercial license shall govern the authorized commercial activity.
