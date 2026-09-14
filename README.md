@@ -1,16 +1,37 @@
-# Mechatron Computational Architecture (MCA)
+# Mechatron Computational Architecture
 
-## A Formal Computational Framework for Mechatronic Systems
+## An Architecture for Systematic Computational Reasoning
 
-The **Mechatron Computational Architecture (MCA)** is a technology-independent computational framework for mechatronic systems. It defines a structured and systematic approach to computation through a standardised architecture, a Common Representation (CR), a formal mathematical foundation, and algorithms.
+The **Mechatron Computational Architecture (MCA)** is a technology-independent, multi-domain architectural specification for computational machines. It defines the architectural components, responsibilities, interfaces, relationships, and computational workflow of a computational machine for systematic computation.
 
-MCA enables consistent, objective, and implementation-independent computation by separating computational logic from physical technologies. It serves as a unifying abstraction that can integrate and support diverse computational paradigms.
+MCA provides a structured architecture for processing and integrating heterogeneous information into a single **Common Representation (CR)**. The CR provides the standardised internal computational representation through which computational reasoning is performed and computational content is transformed into heterogeneous outputs.
+
+The **Central Computational Unit (CCU)** reads and determines the computational meaning of the Common Representation and performs systematic computational reasoning using applicable reasoning mechanisms. Multiple reasoning mechanisms may operate in parallel, simultaneously, concurrently, and may dynamically interact through computational cross-contribution during computation. The architecture separates input processing, information integration, computational reasoning, output integration, output processing, and verification.
+
+MCA is independent of specific hardware, software, programming languages, operating systems, frameworks, algorithms, artificial intelligence models, communication technologies, and other implementation technologies.
+
+---
+
+## Core Architectural Characteristics
+
+- **Technology-Independent Architecture** — Defines architectural structure, responsibilities, interfaces, relationships, and workflow independently of particular implementation technologies.
+- **Multi-Domain Architecture** — Provides an architectural foundation applicable across multiple computational, scientific, engineering, technological, and other domains.
+- **Computational Machine Architecture** — Defines the architectural components, responsibilities, interfaces, relationships, and computational workflow of the computational machine.
+- **Heterogeneous Information Integration** — Processes heterogeneous information from different input sensor types and information sources and integrates the processed information into a single Common Representation.
+- **Common Representation (CR)** — Provides the single standardised internal computational representation connecting the Input Integration Unit (IIU), Central Computational Unit (CCU), and Output Integration Unit (OIU); the CR remains unchanged through this path while its computational content is updated by the CCU.
+- **Computational Reasoning** — Provides systematic, objective-oriented computational reasoning based on the computational objective, Common Representation, context, available information, verified evidence, and applicable rules.
+- **Multiple Reasoning Mechanisms** — Supports language, logical and analytical, contextual, probabilistic, and specialised reasoning mechanisms, including domain-specific reasoning.
+- **Dynamic Interaction and Cross-Contribution** — Reasoning mechanisms may operate in parallel, simultaneously, concurrently, and dynamically cross-contribute during computation.
+- **Separation of Responsibilities** — Separates input sensor processing, input integration, computational reasoning, output integration, output sensor processing, and verification.
+- **Verification and Iteration** — Uses evidence-based verification to determine whether the computational objective has been achieved and supports continued computation through additional information acquisition when required.
+- **Continuous Computational Improvement** — Supports improvement of computational capability through verified computational outcomes while preserving the architectural structure.
 
 ---
 
 ## Repository Contents
 
 ```text
+.
 ├── LICENSE
 ├── Mechatron_Computational_Architecture.pdf
 └── README.md
@@ -26,45 +47,23 @@ MCA enables consistent, objective, and implementation-independent computation by
 
 ## Version
 
-**Version 1.0**  
-Initial public release.
+**Version 1.0**
 
 ---
 
-## Status
+## License Overview
 
-This repository contains the initial release of the Mechatron Computational Architecture.
+The **Mechatron Computational Architecture (MCA)** is distributed under the **Custom Multi-Domain License**.
 
----
+Specified non-commercial use of the MCA Specification is permitted subject to the terms of the [LICENSE](LICENSE). The license also provides specified non-commercial rights for covered MCA Implementations across software, artificial intelligence, digital systems, simulations, digital twins, robotics, mechatronics, embedded systems, hardware controllers, autonomous systems, and other covered implementations.
 
-## Summary & Specification Structure
+Commercial Use of the MCA Specification or an MCA Implementation is not authorized by the non-commercial license and requires separate written authorization under an applicable commercial licensing framework. Commercial licensing may establish domain-specific, technology-specific, industry-specific, implementation-specific, or usage-specific rights and conditions.
 
-MCA bridges architectural theory with a formal mathematical model and structured algorithmic execution architecture. The specification is organized into four core parts:
+Non-commercial modification, adaptation, derivative creation, distribution, and redistribution are subject to the copyright, attribution, modification-identification, and license-retention requirements of the [LICENSE](LICENSE).
 
-1. **Part I – Architecture:** Enforces strict separation of responsibilities among ISPUs, IIU, CCU, OIU, and OSPUs around an invariant Common Representation (CR).
-
-2. **Part II – Common Representation:** Details the lifecycle, structural standardisation, Representation Invariance and technology independence of the internal Common Representation.
-
-3. **Part III – Mathematical Model:** Establishes a formal mathematical model for input processing, multi-mechanism computational reasoning, and system-wide workflow verification.
-
-4. **Part IV – Algorithms:** Provides structural algorithmic flows and logic sequences that translate the architectural and mathematical abstractions into implementable computational procedures.
+The [LICENSE](LICENSE) is the controlling legal document. It also governs intellectual property, third-party technologies, safety and regulatory responsibility, endorsement and certification, warranty, liability, termination, and other applicable conditions.
 
 ---
 
-## License
-
-This project is licensed under a custom multi-domain license. The full legal terms are maintained separately in the [LICENSE](LICENSE) file within this repository.
-
-### Quick Summary of Terms
-
-* **Non-Commercial Use**: The MCA Specification may be studied, reproduced, modified, adapted, and distributed for academic, scientific, educational, research, experimental, evaluation, personal, and other non-commercial purposes, subject to the LICENSE.
-
-* **AI, Software & Digital Implementations**: Non-commercial implementation of MCA in software, artificial intelligence, computational systems, cloud systems, digital platforms, simulations, and digital twins is authorized. Commercial implementation requires a separate commercial license.
-
-* **Robotics, Mechatronics & Physical Implementations**: Non-commercial implementation of MCA in robotics, mechatronics, automated machinery, autonomous systems, hardware controllers, embedded systems, and physical machines is authorized. Commercial implementation requires a separate commercial license.
-
-* **Commercial Use**: Commercial use, production, deployment, manufacture, sale, licensing, distribution, or commercialization of the MCA Specification or an MCA Implementation requires express authorization under an applicable commercial licensing framework.
-
-* **Separate Licensing Frameworks**: The copyright holder may establish domain-specific, technology-specific, industry-specific, implementation-specific, or usage-specific commercial licensing frameworks and licensing tiers.
-
-* **Attribution & Copyright**: Copyright notices and required attribution must be retained in reproductions, distributions, and derivative versions of the MCA Specification.
+Copyright (c) 2026 Ashok Radhakrishnan, M.E.  
+All rights reserved.
