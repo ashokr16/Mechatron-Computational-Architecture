@@ -1,6 +1,5 @@
 # Mechatron Computational Architecture
 
-## An Architecture for Systematic Computational Reasoning
 
 The **Mechatron Computational Architecture (MCA)** is a technology-independent, multi-domain architectural specification for computational machines. It defines the architectural components, responsibilities, interfaces, relationships, and computational workflow of a computational machine for systematic computation.
 
