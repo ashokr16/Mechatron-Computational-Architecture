@@ -1,29 +1,51 @@
 # Mechatron Computational Architecture
 
 
-The **Mechatron Computational Architecture (MCA)** is a technology-independent, multi-domain architectural specification for computational machines. It defines the architectural components, responsibilities, interfaces, relationships, and computational workflow of a computational machine for systematic computation.
+The **Mechatron Computational Architecture (MCA)** is a technology-independent architectural specification for computational machines. It defines the organisation, responsibilities, interfaces, relationships, and computational workflow of architectural components for systematic computation across diverse domains and implementation technologies.
 
-MCA provides a structured architecture for processing and integrating heterogeneous information into a single **Common Representation (CR)**. The CR provides the standardised internal computational representation through which computational reasoning is performed and computational content is transformed into heterogeneous outputs.
+Heterogeneous information is processed through **Input Sensor Processing Units (ISPUs)**. The **Input Integration Unit (IIU)** converts each processed input into the **Common Representation (CR)** and integrates the resulting CR inputs into a single Common Representation. The **Central Computational Unit (CCU)** determines the computational meaning of the CR and performs systematic computational reasoning through multiple reasoning mechanisms operating in parallel, simultaneously, and concurrently.
 
-The **Central Computational Unit (CCU)** reads and determines the computational meaning of the Common Representation and performs systematic computational reasoning using applicable reasoning mechanisms. Multiple reasoning mechanisms may operate in parallel, simultaneously, concurrently, and may dynamically interact through computational cross-contribution during computation. The architecture separates input processing, information integration, computational reasoning, output integration, output processing, and verification.
+Reasoning mechanisms participate comprehensively and may dynamically influence one another through **dynamic lead generation, interaction, and cross-contribution**. A mechanism whose relevance has not initially been determined may generate computational leads that become relevant through these interactions.
 
-MCA is independent of specific hardware, software, programming languages, operating systems, frameworks, algorithms, artificial intelligence models, communication technologies, and other implementation technologies.
+The CCU generates, evaluates, compares, and selects computational solutions based on the computational objective, CR, context, available information, verified evidence, engineering rules, and consistency conditions. When information is insufficient, additional information is acquired and computation continues using the **same CR with updated computational content**.
+
+The resulting computational content is provided to the **Output Integration Unit (OIU)**, which converts it into the required output representations for the corresponding **Output Sensor Processing Units (OSPUs)**. Outputs are subsequently verified against the computational objective, with computation continuing iteratively when the objective has not been achieved.
+
+MCA therefore provides a unified architectural basis for **heterogeneous information integration, a single Common Representation, systematic multi-mechanism reasoning, comprehensive reasoning participation, dynamic lead generation, interaction and cross-contribution, information acquisition, output processing, verification, and iterative computation**.
+
+MCA is independent of specific **hardware, software, programming languages, operating systems, frameworks, algorithms, artificial intelligence models, communication technologies, and other implementation technologies**.
 
 ---
 
 ## Core Architectural Characteristics
 
-- **Technology-Independent Architecture** — Defines architectural structure, responsibilities, interfaces, relationships, and workflow independently of particular implementation technologies.
-- **Multi-Domain Architecture** — Provides an architectural foundation applicable across multiple computational, scientific, engineering, technological, and other domains.
-- **Computational Machine Architecture** — Defines the architectural components, responsibilities, interfaces, relationships, and computational workflow of the computational machine.
-- **Heterogeneous Information Integration** — Processes heterogeneous information from different input sensor types and information sources and integrates the processed information into a single Common Representation.
-- **Common Representation (CR)** — Provides the single standardised internal computational representation connecting the Input Integration Unit (IIU), Central Computational Unit (CCU), and Output Integration Unit (OIU); the CR remains unchanged through this path while its computational content is updated by the CCU.
-- **Computational Reasoning** — Provides systematic, objective-oriented computational reasoning based on the computational objective, Common Representation, context, available information, verified evidence, and applicable rules.
-- **Multiple Reasoning Mechanisms** — Supports language, logical and analytical, contextual, probabilistic, and specialised reasoning mechanisms, including domain-specific reasoning.
-- **Dynamic Interaction and Cross-Contribution** — Reasoning mechanisms may operate in parallel, simultaneously, concurrently, and dynamically cross-contribute during computation.
-- **Separation of Responsibilities** — Separates input sensor processing, input integration, computational reasoning, output integration, output sensor processing, and verification.
-- **Verification and Iteration** — Uses evidence-based verification to determine whether the computational objective has been achieved and supports continued computation through additional information acquisition when required.
-- **Continuous Computational Improvement** — Supports improvement of computational capability through verified computational outcomes while preserving the architectural structure.
+- **Technology-Independent Architecture** — Defines architectural structure, responsibilities, interfaces, relationships, and computational workflow independently of specific implementation technologies.
+
+- **Multi-Domain Architecture** — Provides a common architectural foundation for computational, scientific, engineering, technological, and other domains.
+
+- **Computational Machine Architecture** — Defines the architectural components, responsibilities, interfaces, relationships, and workflow of a computational machine.
+
+- **Heterogeneous Information Integration** — Processes heterogeneous information through dedicated Input Sensor Processing Units (ISPUs), converts each processed input into the Common Representation (CR), and integrates the resulting CR inputs into a single CR.
+
+- **Single Common Representation (CR)** — Provides one standardised internal computational representation connecting the Input Integration Unit (IIU), Central Computational Unit (CCU), and Output Integration Unit (OIU). The CR itself remains unchanged while its computational content is updated during computation.
+
+- **Computational Reasoning** — The **Central Computational Unit (CCU)** determines the computational meaning of the Common Representation (CR) and performs systematic, objective-oriented computational reasoning based on the computational objective, CR, context, available information, verified evidence, engineering rules, and relevant consistency conditions.
+
+- **Comprehensive Reasoning Participation** — Supports broad participation of multiple reasoning mechanisms, including language, logical and analytical, contextual, probabilistic, and specialised or domain-specific mechanisms. A mechanism is not excluded solely because its relevance has not initially been determined.
+
+- **Parallel and Concurrent Reasoning** — Reasoning mechanisms may operate in parallel, simultaneously, and concurrently during computational reasoning.
+
+- **Dynamic Lead Generation, Interaction, and Cross-Contribution** — Reasoning mechanisms may dynamically influence one another through computational leads, intermediate results, deductions, constraints, evaluations, patterns, and other contributions, enabling contributions to become relevant through interaction and cross-contribution.
+
+- **Information Sufficiency and Acquisition** — Assesses whether available information is sufficient for the computational objective and acquires additional information when required, without replacing unknown information with assumptions.
+
+- **Separation of Responsibilities** — Separates input sensor processing, input integration, computational reasoning, output integration, output sensor processing, and verification into distinct architectural responsibilities.
+
+- **Output Integration and Processing** — Converts the updated computational content of the CR into the required output representations through the OIU and corresponding Output Sensor Processing Units (OSPUs).
+
+- **Evidence-Based Verification and Iteration** — Verifies computational outcomes against the objective and continues computation through iterative processing and additional information acquisition when the objective has not been achieved.
+
+- **Continuous Computational Improvement** — Supports improvement of computational capability through verified computational outcomes while preserving the MCA architectural structure and principles.
 
 ---
 
