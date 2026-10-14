@@ -61,6 +61,16 @@ MCA is independent of specific **hardware, software, programming languages, oper
 
 ---
 
+## Fixed-Sample Reference Implementation
+
+A standalone **MCA Fixed-Sample Reference Implementation** demonstrates the MCA architecture using fixed sample inputs and a defined objective. It is not a complete implementation of the MCA architecture.
+
+**[Download MCA Fixed-Sample Reference Implementation (.zip)](https://github.com/ashokr16/Mechatron-Computational-Architecture/archive/refs/heads/mca-fixed-sample-reference-implementation.zip)**
+
+The ZIP contains the implementation-specific README, source code, demonstrations, and tests.
+
+---
+
 ## Author
 
 **Ashok Radhakrishnan, M.E.**
